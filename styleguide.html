@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/styleguide.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+
+       <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <p><a href=https://www.tutorialspoint.com/html/html_text_links.htm#>In-text link</a></p>
+        <h4>Code</h4>
+        <code>&lt;a href="https://www.tutorialspoint.com/html/html_text_links.htm#"&gt;In-text link&lt;/a&gt;</code>
+
+        <!--taken from https://www.tutorialspoint.com/html/html_text_links.htm#-->
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        <a href="https://www.w3schools.com/tags/tag_nav.asp">Nav link</a>
+        <!--taken from https://www.w3schools.com/tags/tag_nav.asp-->
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <div class="flex-container-submit-reset-button">
+          <form>
+            <input type="submit" class="btn">
+            <input type="reset" class="resetbtn">
+          </form>
+        </div>
+        <!--taken from https://www.w3schools.com/tags/att_button_type.asp-->
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <form>
+          <label>Card Number: <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456"></label>
+        </form>
+        <!--taken from https://www.freecodecamp.org/news/html-label-label-tag-example
+          /#:~:text=You%20use%20the%20HTML%20%3Clabel,elements%20inside%20a%20form%20element.-->
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <p>Select method of payment</p>
+        <input type="radio" id="card" name="payment_method" value="CARD">
+        <label for="card">Card</label><br>
+        <input type="radio" id="paypal" name="payment_method" value="PAYPAL">
+        <label for="paypal">Paypal</label><br>
+        <input type="radio" id="giftCard" name="payment_method" value="GIFTCARD">
+        <label for="giftCard">Gift Card</label>
+        <!--taken from https://www.w3schools.com/tags/att_input_type_radio.asp-->
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML">
+          <div class="imgContainer">          
+            <img class="image" src="image/tshirt1.webp" alt="white t-shirt">
+          </div>
+          <!-- taken from https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+          <!-- image hover taken from https://codepen.io/ardieziff/pen/WjMxwy -->
+        </a>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h1>H1 header (page title)</h1>
+        <h2>H2 header (section heading)</h2>
+        <h3>H3 header (sub-section heading)</h3>
+        <h4>H4 header (secondary sub-section heading)</h4>
+        <!-- learnt from the lab -->
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <!-- learnt from previous experience -->
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol type="1">
+          <li>Ingredient 1</li>
+          <li>Ingredient 2</li>
+          <li>Ingredient 3</li>
+        </ol>
+        <!-- taken from https://www.w3schools.com/html/html_lists_ordered.asp -->
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <div class="topnav">
+          <a href="#interactive_elements">Interactive Elements</a>
+          <a href="#text_elements">Text Elements</a>
+          <a href="#combined_elements">Combined Elements</a>
+          <a href="#citations">Citations</a>
+        </div>
+        <!-- taken from https://www.w3schools.com/howto/howto_js_topnav.asp -->
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <div class ="flex-container-product-listing">
+          <div class="product-listing-card">
+            <img src="image/tshirt1.webp" alt="Classic T-Shirt">
+            <div class="flex-container-product-listing-card-text">
+              <div class="product-listing-card-title">
+                <h4>Classic T-Shirt</h4>
+              </div>
+              <div class="product-listing-card-price">
+                <p class="price-product-listing">£85</p>
+              </div>
+            </div>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+          <div class="product-listing-card">
+            <img src="image/polo2.webp" alt="Blue Polo">
+            <div class="flex-container-product-listing-card-text">
+              <div class="product-listing-card-title">
+                <h4>Riviera Polo Shirt</h4>
+              </div>
+              <div class="product-listing-card-price">
+                <p class="price-product-listing">£125</p>
+              </div>
+            </div>
+            <p><button>Add to Cart</button></p>
+        </div>
+        </div>
+
+      </section>
+
+      <section class="element">
+        <h3>Product Description</h3>
+
+        <div class="flex-container-product-description">
+
+          <div class="product-description-image">
+            
+            <figure>
+              <img src="image/tshirt1.webp" alt="white t-shirt">
+            </figure>
+
+          </div>
+
+          <div class="product-description-text">
+            <h3>Riviera T-Shirt <br> £85.00</h3>
+
+            <h4>Description</h4>
+            <p>We made the world’s first luxury T-shirt in 1908 and have been perfecting it ever since. 
+              Our Classic T-shirt is handmade in the Sunspel factory in Long Eaton, England, using the finest, 
+              extra-long staple Supima cotton that can be traced to its Californian farm of origin.</p>
+
+            <p>The fabric - a unique Sunspel development - is lightweight, durable and exceptionally smooth 
+              against the skin. With a classic fit, it is essential to every wardrobe. We believe it is 
+              the perfect T-shirt.</p>
+              
+            <p>Product code: MTSH0001-BKAA</p>
+
+            <div class="dropdown">
+              <button class="dropbtn">Select Size</button>
+              <div class="dropdown-content">
+                <a href="#">Small</a>
+                <a href="#">Medium</a>
+                <a href="#">Large</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+        <div class="row">
+          <div class="col-75">
+            <div class="container">
+              <form action="/action_page.php">
+              
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="john@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="New York">
+        
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="NY">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="icon-container">
+                      <i class="fa fa-cc-visa" style="color:navy;"></i>
+                      <i class="fa fa-cc-amex" style="color:blue;"></i>
+                      <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                      <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <input type="submit" value="Continue to checkout" class="checkoutbtn">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <!-- BRANDING IDEA SECTION // -->
+    <section id="branding_idea">
+      <h2>Branding Ideas</h2>
+      <section class="element">
+        <h3>What does the company do , or offer:</h3>
+        <p>Garment manufacturer and retail based in the UK</p> 
+
+        <h3>Who is the company to potential customers?</h3> 
+        <p>A company selling high-end timeless clothing for both men and women</p>  
+
+        <h3>Why might this company entice someone to purchase a product or service?</h3>
+        <p>It has been established for a long time and is proven to be a great brand
+          offering timeless and durable products made of high-end materials.</p>
+      </section>
+
+      <section id="brand_components">
+
+          <h2>Brand Components</h2>
+
+          <section class="element">
+            <h3>Font</h3>
+            <h1>playfair display    heading</h1>
+            <h2>Open Sans           subheading</h2>
+            <h3>ZillaSlab          section heading</h3>
+            <p>Quicksand            paragraph</p>
+          </section>
+
+          <section class="element">
+            <h3>Colour Palletes</h3>
+
+            <div class="flex-container-color">
+              <div class="colorPalletes">Black <br> #000000 <br> Key Colour</div>
+              <div class="colorPalletes colorOffWhite">Off-White <br> #FAF8F2 <br> Background Colour</div>
+              <div class="colorPalletes colorGrey">Grey <br> #767C7C <br> Accent Colour</div>
+              <div class="colorPalletes colorPurple">Purple <br> #7F6B8D <br> Accent Colour</div>
+              <div class="colorPalletes colorOrange">Orange <br> #E68600 <br> Accent Colour</div>
+              <div class="colorPalletes colorDarkBlue">Dark Blue <br> #323E74 <br> Nav Bar and Buttons Colour</div>
+            </div>
+            
+          </section>
+
+          <section class="element">
+            <h3>Potential Imagery</h3>
+
+            <div class="row-image">
+              <div class="column-image">
+                <img src="image/sunspel1.webp" alt="image1">
+                <img src="image/tshirt1.webp" alt="white t-shirt">
+                <img src="image/sunspel2.jpg" alt="image2">
+              </div>
+              <div class="column-image">
+                <img src="image/tshirt1_2.webp" alt="model of white t-shirt">
+                <img src="image/sunspel_logo.png" alt="sunspel logo">
+                <img src="image/polo2.webp" alt="blue polo model">
+              </div>
+              <div class="column-image">
+                <img src="image/sunspel4.jpg" alt="image4">
+                <img src="image/polo.jpg" alt="blue polo">
+                <img src="image/sunspel3.jpg" alt="image3">
+              </div>
+            </div>
+          </section>
+
+    </section>
+
+    </section>
+      <!-- BRANDING IDEA SECTION -->
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Sørensen, C., E. (n.d.). <strong>Playfair Display [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Playfair+Display?query=playfair">https://fonts.google.com/specimen/Playfair+Display?query=playfair</a></li>
+        <li>Typotheque (n.d.). <strong>Zilla Slab [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Zilla+Slab?category=Serif,Display">https://fonts.google.com/specimen/Zilla+Slab?category=Serif,Display</a></li>
+        <li>Paglinawan, A. (n.d.). <strong>Quicksand [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Quicksand?query=quicksan">https://fonts.google.com/specimen/Quicksand?query=quicksan</a></li>
+        <li>Figure 1. <strong>[Stack of shirts]</strong>. (n.d.). Retrieved from <a href="https://www.ignant.com/2017/01/19/sunspel-factory-visit/">https://www.ignant.com/2017/01/19/sunspel-factory-visit/</a></li>
+        <li>Figure 2. <strong>[Sunspel factory]</strong>. (n.d.). Retrieved from <a href="https://www.ignant.com/2017/01/19/sunspel-factory-visit/">https://www.ignant.com/2017/01/19/sunspel-factory-visit/</a></li>
+        <li>Figure 3. <strong>[White t-shirt]</strong>. (n.d.). Retrieved from <a href="https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white">https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white</a></li>
+        <li>Figure 4. <strong>[White t-shirt Model]</strong>. (n.d.). Retrieved from <a href="https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white">https://www.sunspel.com/products/mens-riviera-crew-neck-t-shirt-white</a></li>
+        <li>Figure 5. <strong>[Men in Blue Polo]</strong>. (2021). Retrieved from <a href="https://oracleoftime.com/how-sunspels-riviera-polo-shirt-became-james-bonds-signature-look/">https://oracleoftime.com/how-sunspels-riviera-polo-shirt-became-james-bonds-signature-look/</a></li>
+        <li>Figure 6. <strong>[Men Sitting]</strong>. (2023). Retrieved from <a href="https://www.esquire.com/uk/style/a43903158/the-best-menswear-from-the-very-nice-mr-porter-x-sunspel-collection/">https://www.esquire.com/uk/style/a43903158/the-best-menswear-from-the-very-nice-mr-porter-x-sunspel-collection/</a></li>
+        <li>Figure 7. <strong>[Sunspel Logo]</strong>. (n.d.). Retrieved from <a href="https://en.m.wikipedia.org/wiki/File:Sunspel_logo.png">https://en.m.wikipedia.org/wiki/File:Sunspel_logo.png</a></li>
+        <li>Figure 8. <strong>[Blue Polo]</strong>. (2021). Retrieved from <a href="https://www.jamesbondlifestyle.com/news/sunspel-sea-island-cotton-autumn-2021-collection-inspired-ian-fleming">https://www.jamesbondlifestyle.com/news/sunspel-sea-island-cotton-autumn-2021-collection-inspired-ian-fleming</a></li>
+        <li>Figure 9. <strong>[Blue Polo Model]</strong>. (n.d.). Retrieved from <a href="https://www.sunspel.com/products/mens-cotton-riviera-polo-shirt-navy-mpol1026">https://www.sunspel.com/products/mens-cotton-riviera-polo-shirt-navy-mpol1026</a></li>
+      </ul>
+      
+    </section>
+
+
+
+  </body>
+</html>

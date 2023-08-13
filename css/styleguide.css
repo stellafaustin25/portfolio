@@ -1,0 +1,356 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: "Quicksand", Verdana, sans-serif;
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+  font-family: "Playfair", serif;
+  font-size: 3rem;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-family: "OpenSans", sans-serif;
+  margin-top: 2.3rem;
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-family: "ZillaSlab";
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  font-family: "Quicksand";
+  font-size: 1rem;
+  margin-top: 0;
+  max-width: 70%;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid black;
+  height: auto;
+}
+
+section {
+  margin-top: 3rem;;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #323E74;
+  text-decoration: none;
+  transition-property: background-color, color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #767C7C;
+  color: #E68600;
+}
+
+.btn {
+  background-color: #323E74;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  transition-property: background-color, color; 
+  transition-duration: 0.5s;
+  margin-bottom: 1rem;
+}
+
+.btn:hover, :focus {
+  background-color:#767C7C;
+  color:#e68600;
+}
+
+.resetbtn {
+  background-color: #7F6B8D;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  transition-property: background-color, color; 
+  transition-duration: 0.5s;
+  margin-bottom: 1rem;
+}
+
+.resetbtn:hover, :focus{
+  background-color:#767C7C;
+  color:#e68600;
+}
+
+.image {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+a {
+  color: #7F6B8D;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+  color: #E68600;
+  text-decoration: none;
+}
+
+input:hover, input:focus {
+  background-color: #ADD8E6;
+}
+
+.imgContainer {
+  max-width: 100%;
+  padding: 15px;
+  display: flex;
+}
+
+.imgContainer img {
+  max-width: 100%;
+  opacity: .2;
+  transition: opacity .5s;
+}
+
+.imgContainer img:hover, .imgContainer img:focus {
+  opacity: 1;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Nav bar */
+.topnav {
+  overflow: hidden;
+  background-color: #323E74;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #E68600;
+}
+
+/* Product Description */
+.dropbtn {
+  background-color: #323E74;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+/* Product Listing */
+.product-listing-card {
+  max-width: 300px;
+  margin: 2rem;
+}
+
+.product-listing-card h4 {
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+.price-product-listing {
+  color: #767C7C;
+}
+
+.product-listing-card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #323E74;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+
+.product-listing-card button:hover, button:focus {
+  background-color: #767C7C;
+  color: #E68600;
+}
+
+/*
+Product Listing Card learnt from https://www.w3schools.com/howto/howto_css_product_card.asp
+*/
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #767C7C;}
+
+/* drop down taken from https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
+/* Payment Form and Checkout Cart */
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+}
+
+.checkoutbtn{
+  background-color: #323E74;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.checkoutbtn:hover {
+  background-color: #767C7C;
+  color: #E68600;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: #000000;
+}
+/* End of payment form and checkout cart */
+/* Payement Form and Checkout Cart taken from https://www.w3schools.com/howto/howto_css_checkout_form.asp */
+
+/*
+  BRANDING IDEA -------------------
+*/
+
+.colorPalletes {
+  color: white;
+  background-color: black;
+  width: 30rem;
+  margin: 1rem;
+  padding: 3rem;
+  line-height: 1.5rem;
+}
+
+.colorOffWhite {
+  background-color: #faf8f2;
+  color: black;
+}
+
+.colorGrey {
+  background-color: #767C7C;
+}
+
+.colorDarkBlue {
+  background-color: #323E74;
+}
+
+.colorPurple {
+  background-color: #7f6b8d;
+}
+
+.colorOrange {
+  background-color: #e68600;
+}
