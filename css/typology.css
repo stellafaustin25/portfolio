@@ -37,9 +37,9 @@ p {
 
 .body, h2, p {
   margin-bottom: 32px;
-  color: rgba(0,0,0,.48);
+  color: #4A4A4A;
   line-height: 160%;
-  max-width: 380px;
+  max-width: 430px;
   font-family: "apercu";
   }
 
