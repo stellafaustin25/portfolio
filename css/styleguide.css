@@ -3,7 +3,7 @@
   Default styling for the style guide 
 */
 body {
-  font-family: "Quicksand", Verdana, sans-serif;
+  font-family: "apercu";
   padding: 2rem;
 }
 
@@ -38,7 +38,7 @@ h4 {
 }
 
 p {
-  font-family: "Quicksand";
+  font-family: "apercu";
   font-size: 1rem;
   margin-top: 0;
   max-width: 70%;

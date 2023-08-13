@@ -12,7 +12,7 @@
   
   h1 {
 	font-family: "PostGrotesk Medium", serif;
-	font-size: 3rem;
+	font-size: 6rem;
 	margin-top: 0;
 	margin-bottom: 0;
   }
@@ -135,6 +135,28 @@
 	padding: 0.5rem;
 	display: block;
   }
+
+  .scrolling-text-container {
+	width: 1680px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 60px;
+  }
+  
+  .scrolling-text {
+	display: inline-block;
+	animation: scrollText 10s linear infinite;
+  }
+  
+  @keyframes scrollText {
+	0% {
+	  transform: translateX(100%);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }
+  
   
 
 /*navigation*/
@@ -212,7 +234,6 @@
 	margin: 24px;
 	height: 100%;
 }
-
 
 .col-1 {
 	flex: 1 1;
