@@ -1,0 +1,73 @@
+.footer {
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+}
+
+.footer .grid {
+    margin: 16px 24px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    height: 100%;
+}
+
+.col-1 {
+    flex: 1 1;
+    position: relative;
+}
+
+.footer .col-2 {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .footer p {
+    color: rgba(0,0,0,.28);
+    margin-bottom: 0;
+    }
+
+.body, p {
+    color: rgba(0,0,0,.48);
+    font-family: "apercu";
+}
+
+.body, h2, p {
+     margin-bottom: 32px;
+     max-width: 380px;
+ }
+
+ .page-content {
+	min-height: calc(100vh - 56px - 220px);
+}
+
+.about, .about .grid {
+	height: 100%;
+}
+
+.about .grid {
+	height: 100%;
+}
+
+main {
+	margin-top: 220px;
+	padding-bottom: 70px;
+	margin-bottom: 0;
+}
+
+
+.personal-photo {
+	margin-top: 148px;
+	width: 300px;
+	opacity: .9;
+	margin-right: 24px;
+	}
+
+ul.contact-desktop {
+	margin-top: 0;
+	margin-bottom: 96px;
+	transform: translateY(-1px);
+	width: auto;
+}

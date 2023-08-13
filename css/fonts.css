@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'PostGrotesk';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/PostGrotesk-Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'apercu';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Apercu.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PostGrotesk Medium';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/PostGrotesk-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PostGrotesk Light';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/PostGrotesk-Light.otf') format('truetype');
+}
