@@ -1,6 +1,5 @@
 
 /* Contact Us */
-
 .contact-us-section {
 padding: 5rem 0rem;
 }
@@ -72,7 +71,5 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   
 }
-
-
 /* End of Contact Us */
 
