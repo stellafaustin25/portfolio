@@ -136,6 +136,8 @@
 	display: block;
   }
 
+  /*scroll animation text https://blog.hubspot.com/website/scrolling-text-css*/
+
   .scrolling-text-container {
 	width: 1680px;
 	overflow: hidden;
@@ -156,6 +158,8 @@
 	  transform: translateX(-100%);
 	}
   }
+
+/*end of scroll animation*/
   
   
 
@@ -217,15 +221,9 @@
 	background-color: #647267;
 }
 
-
-
 /*end of navigation*/
 
-
-  
-
-
-  /* work */
+/* main content */
 
 .grid {
 	display: flex;
@@ -275,6 +273,7 @@
 }
 
 .thumbnail-description {
+	font-family: "apercu";
 	color: rgba(0,0,0,.48);
 }
 
