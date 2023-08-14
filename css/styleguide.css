@@ -14,16 +14,22 @@ body {
   border-top-color: black;
 }
 
+/*h1 for scrolling animation */
+
 h1 {
-  font-family: "Playfair", serif;
-  font-size: 3rem;
-  margin: 0.67em 0;
-}
+	font-family: "PostGrotesk Medium", serif;
+	font-size: 6rem;
+	margin-top: 0;
+	margin-bottom: 0;
+  }
+
+/* for header page*/
 
 h2 {
-  font-family: "OpenSans", sans-serif;
-  margin-top: 2.3rem;
-  font-size: 1.9rem;
+  font-family: "PostGrotesk", serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
 }
 
 h3 {
@@ -44,9 +50,63 @@ p {
   max-width: 70%;
 }
 
-nav a:hover, nav a:focus {
-  text-decoration: none;
+/*nav bar*/
+.navbar-div {
+	padding: 2rem 2.5rem 2rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+  }
+
+.logo-nav {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+	max-width: 40px;
 }
+
+.logo-img {
+	width: 6rem;
+	text-align: left;
+}
+
+.left-nav {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+.right-nav li {
+	display: inline-block;
+	position: relative;
+	padding-top: 30px;
+	margin-right: 1.5rem;
+  }
+  
+.nav-text {
+	text-decoration: none;
+	color: #333;
+	font-size: 0.9rem;
+}
+  
+.right-nav li::after {
+	content: "";
+	position: absolute;
+	width: 5.5px;
+	height: 5.5px;
+	border-radius: 50%;
+	background-color: transparent;
+	bottom: -100px;
+	left: 50%;
+	top: 60px;
+	transform: translateX(-50%);
+	transition: background-color 0.3s ease;
+}
+
+.right-nav li:hover::after {
+	background-color: #647267;
+}
+/*end nav bar*/
 
 code {
   background-color: #EEE;
@@ -68,24 +128,9 @@ section {
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #323E74;
-  text-decoration: none;
-  transition-property: background-color, color; 
-  transition-duration: 0.5s;
-}
-
-.button-nav:hover, .button-nav:focus {
-  background-color: #767C7C;
-  color: #E68600;
-}
-
+/*button*/
 .btn {
-  background-color: #323E74;
+  background-color: #767C7C;
   color: white;
   padding: 0.5rem;
   width: 100%;
@@ -97,13 +142,15 @@ section {
 }
 
 .btn:hover, :focus {
-  background-color:#767C7C;
-  color:#e68600;
+  background-color:#E1E1E1;
+  color:black;
 }
+/*end button */
 
+/*rest button*/
 .resetbtn {
-  background-color: #7F6B8D;
-  color: white;
+  background-color:#E1E1E1;
+  color: black;
   padding: 0.5rem;
   width: 100%;
   border: none;
@@ -115,24 +162,27 @@ section {
 
 .resetbtn:hover, :focus{
   background-color:#767C7C;
-  color:#e68600;
+  color:white;
 }
+/*end rest button*/
 
 .image {
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-a {
-  color: #7F6B8D;
-  transition: color 0.5s;
-  text-decoration: none;
+a{
+  text-decoration: underline;
+  color: #4A4A4A;
+
 }
 
-a:active, a:hover, a:focus {
-  color: #E68600;
-  text-decoration: none;
+a:hover{
+  color: #D2D4C8;
+
 }
+
+
 
 input:hover, input:focus {
   background-color: #ADD8E6;

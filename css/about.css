@@ -20,6 +20,19 @@
   font-family: "apercu";
 }
 
+a{
+    text-decoration: underline;
+    color: #4A4A4A;
+
+}
+
+a:hover{
+    color: #D2D4C8;
+
+}
+
+
+
 .body, h2, p {
     margin-bottom: 32px;
     color: #4A4A4A;
