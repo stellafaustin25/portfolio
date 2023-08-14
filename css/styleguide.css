@@ -33,15 +33,13 @@ h2 {
 }
 
 h3 {
-  font-family: "ZillaSlab";
-  font-size: 1.8rem;
-  margin-top: 0.5rem;
+  font-family: "PostGrotesk", serif;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	color: #4A4A4A;
 }
 
-h4 {
-  font-size: 1.3rem;
-  margin-bottom: 0.25rem;
-}
 
 p {
   font-family: "apercu";
@@ -401,3 +399,8 @@ span.price {
 .colorDarkBlue {
   background-color: #767C7C;
 }
+
+.colorLightGreen {
+  background-color: #D2D4C8;
+}
+
