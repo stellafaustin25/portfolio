@@ -299,3 +299,156 @@
 	margin-right: 4px;
 }
 /*end of work*/
+
+/* Footer */
+
+.footer-header-container {
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
+  
+  .footer-header-container h3 {
+	font-size: 1.2rem;
+	max-width: 450px;
+  }
+  
+  @media screen and (min-width: 900px) {
+	.footer-header-container{
+	  max-width: 1240px;
+	  padding-left: 3rem;
+	  padding-right: 3rem;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	.footer-header-container h3{
+	  font-size: 1.4rem;
+	  max-width: 500px;
+	}
+  }
+  
+  footer {
+	display: block;
+	position: relative;
+	padding-top: 2.5rem;
+	width: 100%;
+  }
+  
+  footer hr {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+  }
+  
+  @media screen and (min-width: 900px) { 
+	footer { 
+		padding-top: 2rem; 
+	}
+  
+	footer hr {
+	  max-width: 800px;
+	}
+  } 
+  
+  .footer-content-container {
+	background-color: #D3D5C9;
+	display: block;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+  }
+  
+  .footer-content-container h4 {
+	color: white;
+	margin-bottom: 1rem;
+  }
+  
+  .footer-content-container p {
+	color: white;
+	max-width: 90%;
+  }
+  
+  @media screen and (min-width: 1240px) { 
+	.footer-content-container {
+	  padding-left: 3rem;
+	  padding-right: 3rem;
+	}
+  }  
+  
+  .footer-grid-container {
+	display: grid;
+	margin-top: 1rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+  }
+  
+  .footer-grid-cols {
+	grid-template-columns: repeat(1,minmax(0,1fr));
+  }
+  
+  @media screen and (min-width: 900px) { 
+	.footer-grid-container { 
+		margin-top: 4.5rem; 
+		grid-column-gap: 1.25rem;
+		column-gap: 1.25rem;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-grid-cols {
+	  grid-template-columns: repeat(5,minmax(0,1fr));
+	}
+	.footer-grid-cols-span2 { 
+	  grid-column: span 2/span 2; 
+	} 
+  } 
+  
+  @media screen and (min-width: 1240px) { 
+	.footer-grid-container {
+	  max-width: 1240px;
+	}
+  }  
+  
+  footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  footer li {
+	margin-top: 0.8rem;
+  }
+  
+  footer a {
+	font-family: "relativemono", serif;
+	font-size: 1rem;
+	font-weight: 410;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #979797;
+	transition-property: color;
+	transition-duration: 0.5s;
+  }
+  
+  footer a:hover, footer a:focus, footer a:active {
+	color: #FFFFFF;
+  }
+  
+  footer input[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #CECDC8;
+	color: white;
+	background-color:#303030; 
+  }
+  
+  .newsletter p{
+	font-size: 0.7rem;
+  }
+  
+  /* end of Footer */
+  
+  
