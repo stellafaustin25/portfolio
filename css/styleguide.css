@@ -171,6 +171,7 @@ section {
   backface-visibility: hidden;
 }
 
+/*link*/
 a{
   text-decoration: underline;
   color: #4A4A4A;
@@ -182,10 +183,13 @@ a:hover{
 
 }
 
+/*end link*/
+
 
 
 input:hover, input:focus {
-  background-color: #ADD8E6;
+  background-color: #E1E1E1;
+  color: black;
 }
 
 .imgContainer {
